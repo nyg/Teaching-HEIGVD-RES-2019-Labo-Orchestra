@@ -121,21 +121,21 @@ When you connect to the TCP interface of the **Auditor**, you should receive an 
 | #  | Topic |
 | ---  | --- |
 |Question | In a JavaScript program, if we have an object, how can we **serialize it in JSON**? |
-| | *Enter your response here...*  |
+| | `JSON.stringify`  |
 |Question | What is **npm**?  |
-| | *Enter your response here...*  |
+| | It is the node package manager, you can create node apps and install other packages with it.  |
 |Question | What is the `npm install` command and what is the purpose of the `--save` flag?  |
 | | *Enter your response here...*  |
 |Question | How can we use the `https://www.npmjs.com/` web site?  |
-| | *Enter your response here...*  |
+| | By using the search field.  |
 |Question | In JavaScript, how can we **generate a UUID** compliant with RFC4122? |
-| | *Enter your response here...*  |
+| | By using the UUID package.  |
 |Question | In Node.js, how can we execute a function on a **periodic** basis? |
-| | *Enter your response here...*  |
+| | `setTimeout`  |
 |Question | In Node.js, how can we **emit UDP datagrams**? |
-| | *Enter your response here...*  |
+| | We create a socket using the `dgram` module. |
 |Question | In Node.js, how can we **access the command line arguments**? |
-| | *Enter your response here...*  |
+| | Using `process.argv`  |
 
 
 ## Task 3: package the "musician" app in a Docker image
