@@ -66,6 +66,8 @@ function pruneMusicians() {
 // send array of active musicians each time someone connects to the server
 const tcpServer = net.createServer(socket => {
     socket.write(musiciansToArray(musicians))
+    socket.write('\r\n');
+    socket.end();
 })
 
 tcpServer.on('error', e => { throw e })
